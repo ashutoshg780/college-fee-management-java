@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Sep 03, 2021 at 02:16 PM
+- Server version: 10.4.20-MariaDB
+- PHP Version: 8.0.9
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="colledge_database" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="login_data">
+                CREATE TABLE `login_data` (
+                  `Name` varchar(25) DEFAULT NULL,
+                  `Phone_No` int(11) DEFAULT NULL,
+                  `Mail_ID` varchar(35) DEFAULT NULL,
+                  `User_ID` varchar(15) DEFAULT NULL,
+                  `Password` varchar(16) DEFAULT NULL,
+                  `Father_Name` varchar(25) DEFAULT NULL,
+                  `Mother's_Name` varchar(25) DEFAULT NULL,
+                  `Address` varchar(100) DEFAULT NULL,
+                  `Marks_12` varchar(5) DEFAULT NULL,
+                  `Marks_10` varchar(5) DEFAULT NULL,
+                  `Adhaar_number:` int(13) DEFAULT NULL,
+                  `Fee` int(10) DEFAULT NULL
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'colledge_database'
+    -->
+    <database name="colledge_database">
+        <!-- Table login_data -->
+        <table name="login_data">
+            <column name="Name">sdad</column>
+            <column name="Phone_No">4546565</column>
+            <column name="Mail_ID">sdfsfdsd@gmail.com</column>
+            <column name="User_ID">sdff</column>
+            <column name="Password">dsfsdfs</column>
+            <column name="Father_Name">NULL</column>
+            <column name="Mother's_Name">NULL</column>
+            <column name="Address">NULL</column>
+            <column name="Marks_12">NULL</column>
+            <column name="Marks_10">NULL</column>
+            <column name="Adhaar_number:">NULL</column>
+            <column name="Fee">NULL</column>
+        </table>
+        <table name="login_data">
+            <column name="Name">Ashutosh Gupta</column>
+            <column name="Phone_No">64161</column>
+            <column name="Mail_ID">ashutoshg780@outlook.com</column>
+            <column name="User_ID">ashutoshg780</column>
+            <column name="Password">Ashutosh@04</column>
+            <column name="Father_Name">NULL</column>
+            <column name="Mother's_Name">NULL</column>
+            <column name="Address">NULL</column>
+            <column name="Marks_12">NULL</column>
+            <column name="Marks_10">NULL</column>
+            <column name="Adhaar_number:">NULL</column>
+            <column name="Fee">NULL</column>
+        </table>
+    </database>
+</pma_xml_export>
