@@ -59,9 +59,9 @@ CREATE TABLE login_data (
 
 > *(Add your screenshots to the `docs/` folder and update these links!)*
 
-| Login Page          | Registration Page      | Course Fee Page          |
-| ------------------- | ---------------------- | ------------------------ |
-| ![](docs/login.png) | ![](docs/register.png) | ![](docs/course_fee.png) |
+| Login Page          | Registration Page      | Data Upload Page         | Course Fee Page     | Fee Payment Page       | 
+| ------------------- | ---------------------- | ------------------------ | ------------------- | ---------------------- |
+| <img width="350" height="354" alt="image" src="https://github.com/user-attachments/assets/0108ed5a-feec-41e2-b115-f7b0e1049d94" /> | <img width="381" height="485" alt="image" src="https://github.com/user-attachments/assets/f49b3cdf-fa04-4c3c-bd89-3c717f0688e9" /> | <img width="358" height="710" alt="image" src="https://github.com/user-attachments/assets/3b124764-75a4-4f48-a263-d7eb2b1f8ff2" /> | <img width="556" height="641" alt="image" src="https://github.com/user-attachments/assets/c1447d98-9300-4db8-ae20-79f7a75eb57f" /> | <img width="327" height="311" alt="image" src="https://github.com/user-attachments/assets/847ecc4b-0f23-46f5-8f23-3a6e00b6d00a" /> |
 
 ---
 
@@ -91,3 +91,4 @@ Developed by **Ashutosh Gupta**
 ### *Like this project? Give it a ⭐ on GitHub!*
 
 ---
+
